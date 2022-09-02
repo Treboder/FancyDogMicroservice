@@ -5,6 +5,9 @@ We also register the service to a running Eureka instance, so make sure that Eur
 
 Navigate to http://localhost:8762/dogs to see the exposed dog microservice.  
 
+### ToDo: Find solution for Eureka showing host.docker.internal instead of ip 
+- [spring-boot-cloud-eurka-windows-10-eurkea-returns-host-docker-internal-for-client](https://stackoverflow.com/questions/57319678/spring-boot-cloud-eurka-windows-10-eurkea-returns-host-docker-internal-for-clien)
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
