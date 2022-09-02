@@ -1,5 +1,8 @@
 # Getting Started
-Navigate to http://localhost:8080/dogs and make sure that Eureka is already running (http://localhost:8761/)
+Simple example demonstrating automatically created REST endpoints via spring-boot-starter-data-rest.
+Implementation creates a REST service for a simple data class <Dog> without the need to write separate controller or any other service.
+We also register the service to a running Eureka instance, so make sure that Eureka is already running (http://localhost:8761/).
+Navigate to http://localhost:8080/dogs to see the exposed dog microservice.  
 
 ### Reference Documentation
 For further reference, please consider the following sections:
