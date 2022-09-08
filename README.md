@@ -32,3 +32,5 @@ The following guides illustrate how to use some features concretely:
 * [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/)
 * [Service Registration and Discovery with Eureka and Spring Cloud](https://spring.io/guides/gs/service-registration-and-discovery/)
 
+
+Also compare [spring-boot-crudrepository-with-example](https://www.geeksforgeeks.org/spring-boot-crudrepository-with-example/)
