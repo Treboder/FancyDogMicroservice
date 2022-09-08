@@ -5,6 +5,39 @@ We also register the service to a running Eureka instance, so make sure that Eur
 
 Navigate to http://localhost:8762/dogs to see the exposed dog microservice.  
 
+## Operations
+
+### GET (in order to retrieve list of prices)
+```
+http://localhost:8762/dogs
+```
+### GET (in order to retrieve a certain price by id)
+```
+http://localhost:8762/dogs/1
+``` 
+### POST (in order to save a new price)
+```
+http://localhost:8762/dogs/
+``` 
+with following JSON payload:
+```      
+    {
+        "name" : "Rex",
+        "breed" : "Schäferhund",
+        "origin" : "Deutschland"
+    }
+```
+
+### DELETE (a certain price by id)
+```
+http://localhost:8762/dogs/1
+```
+
+### PUT (in order to update a certain price by id)
+```
+http://localhost:8762/dogs/1
+```
+
 ### ToDo: Find solution for Eureka showing host.docker.internal instead of ip 
 - [spring-boot-cloud-eurka-windows-10-eurkea-returns-host-docker-internal-for-client](https://stackoverflow.com/questions/57319678/spring-boot-cloud-eurka-windows-10-eurkea-returns-host-docker-internal-for-clien)
 
